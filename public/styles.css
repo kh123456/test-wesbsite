@@ -50,9 +50,26 @@ table {
 nav {
 	text-align: center;
 }
+
 nav li {
 	display: inline-block;
 	padding: 10px;
 	font-size: 24px;
 	font-family: 'Raleway', sans-serif;
+}
+
+nav li:first-child {
+	color: red;
+}
+
+nav li:first-child + li {
+	color: blue;
+}
+
+nav li:first-child + li + li {
+	color: green;
+}
+
+nav li:last-child {
+	color: yellow;
 }
