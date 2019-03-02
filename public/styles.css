@@ -49,6 +49,7 @@ table {
 
 nav {
 	text-align: center;
+	line-height: 75px;
 }
 
 nav li {
@@ -56,20 +57,28 @@ nav li {
 	padding: 10px;
 	font-size: 24px;
 	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	
 }
 
 nav li:first-child {
-	color: red;
+	color:rgb(247, 15, 158);
 }
 
 nav li:first-child + li {
-	color: blue;
+	color:purple;
 }
 
 nav li:first-child + li + li {
-	color: green;
+	color:turquoise;
 }
 
 nav li:last-child {
-	color: yellow;
+	color: rgb(248, 152, 8);
+}
+img{
+	width: 175px;
+	position:absolute;
+	left: 0;
+	top: 10px;
 }
